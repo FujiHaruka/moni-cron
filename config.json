@@ -1,0 +1,24 @@
+{
+  "scripts": [
+    {
+      "name": "",
+      "command": "echo hoge",
+      "failedMessage": "",
+      "schedule": ""
+    }
+  ],
+  "stmp": {
+    "host": "",
+    "port": 465,
+    "secure": true,
+    "auth": {
+      "user": "",
+      "pass": ""
+    }
+  },
+  "mail": {
+    "from": "",
+    "to": "",
+    "subject": "[moni] Alert"
+  }
+}
