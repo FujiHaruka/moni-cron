@@ -2,15 +2,14 @@
   "name": "moni-cron",
   "version": "1.0.0",
   "description": "Server monitor cron",
-  "main": "index.js",
   "bin": {
     "moni-cron": "moni-cron.js"
   },
   "directories": {
-    "lib": "lib",
     "test": "test"
   },
   "scripts": {
+    "start": "pm2 start bin/moni-cron.js",
     "test": "mocha"
   },
   "repository": {
